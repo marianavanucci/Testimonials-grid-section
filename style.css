@@ -1,6 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Bebas+Neue&family=Overpass:wght@400;700&display=swap');
 html,body{
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background-color: yellow;
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    max-width: 1440px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 81%);
+    max-width: 1440px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin: 10px;
+}
+
+.testimonial-01{
+    background-color: hsl(263, 55%, 52%);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: white;
+}
+
+.testimonial-02{
+    background-color: hsl(217, 19%, 35%);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: white;
+}
+
+.testimonial-03{
+    background-color: hsl(0, 0%, 100%);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: hsl(219, 29%, 14%);
+}
+
+.testimonial-04{
+    background-color: hsl(0, 0%, 100%);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: hsl(219, 29%, 14%);
+}
+
+.testimonial-05{
+    background-color: hsl(219, 29%, 14%);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: white;
+}
+
+h1{
+    font-size: 5px;
+}
+h2{
+    font-size: 10%;
+}
+h3{
+    font-size: 10%;
+}
+h4{
+    font-size: 10%;
+}
+
+img    {
+    border-radius: 50%;
+    width: 10%;
+    border-color: white;
+
 }
