@@ -13,11 +13,11 @@ html,body{
     max-width: 1440px;
     height: 600px;
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    margin: 10px;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin: 30px;
 }
 
 .testimonial-01{
@@ -27,6 +27,13 @@ html,body{
     grid-row-start: 1;
     grid-row-end: 2;
     color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonial-02{
@@ -66,21 +73,49 @@ html,body{
 }
 
 h1{
-    font-size: 8px;
+    font-size: 10px;
+    font-weight: 600;
+
+
 }
 h2{
-    font-size: 7px;
+    font-size: 10px;
+    font-weight: 500;
 }
 h3{
-    font-size: 10%;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 h4{
-    font-size: 10%;
+    font-size: 10px;
+    margin-bottom: 8px;
+    font-weight:500;
 }
 
 img    {
     border-radius: 50%;
-    width: 10%;
+    margin-top: 10px;
+    width: 7%;
     border-color: white;
 
 }
+
+.profile1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:last baseline;
+
+}
+.profile-name{
+    margin-left: 10px;
+}
+
+
+/* duvidas 
+
+refinar tela 1
+first child
+*/
