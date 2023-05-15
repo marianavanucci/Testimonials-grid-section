@@ -13,10 +13,10 @@ html,body{
     max-width: 1440px;
     height: 600px;
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: 50px 50px;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     margin: 10px;
 }
 
@@ -66,10 +66,10 @@ html,body{
 }
 
 h1{
-    font-size: 5px;
+    font-size: 8px;
 }
 h2{
-    font-size: 10%;
+    font-size: 7px;
 }
 h3{
     font-size: 10%;
